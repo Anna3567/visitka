@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт визитка</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container container_header">
+        <div class="logo">
+            <img src="img/img.png" alt="logo" class="logo__img">
+            <h4 class="logo__title">Web-dev</h4>
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">home</li>
+                <li class="nav__item">stack of technology</li>
+                <li class="nav__item">video</li>
+                <li class="nav__item">gallery</li>
+            </ul>
+        </nav>
+        <img src="img/open.png" alt="open" class="header__img">
+    </div>
+</header>
+<main class="main">
+    <section class="hero">
+        <div class="container container_hero">
+            <img src="img/human.png" alt="hero computer" class="hero__img">
+            <div class="hero__content">
+                <h1 class="hero__title">I am Anna.</h1>
+                <p class="hero__text">I am do web-develop. I want to tell about my work. 
+                    I will teach you my skills.</p>
+                    <a href="#" class="hero__link">contact me</a>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container container_about">
+            <h2 class="about__title">Stack of technology</h2>
+            <div class="about__content">
+                <div class="about__stats">
+                    <h3 class="stats__title">My skills</h3>
+                    <ul class="stats__list">
+                        <li class="stats__item">
+                            <h4 class="item__title">HTML</h4>
+                            <div class="item__full">
+                                <div class="item__rate"></div>
+                            </div>
+                        </li>
+                        <li class="stats__item">
+                            <h4 class="item__title">CSS</h4>
+                            <div class="item__full">
+                                <div class="item__rate"></div>
+                            </div>
+                        </li>
+                        <li class="stats__item">  
+                            <h4 class="item__title">FIGMA</h4>
+                            <div class="item__full">
+                                <div class="item__rate"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <img src="img/img-group.png" alt="не закгрузилось" class="about__img">
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="container container_video">
+            <h2 class="video__title">video</h2>
+            <iframe class="video__video" src="https://www.youtube.com/embed/T8cFygn-q68?si=QsNlu7KwLnmeR4eh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="gallery">
+        <h2 class="gallery__title">gallery</h2>
+        <ul class="gallery__list">
+            <li class="gallery__item">
+                <a href="img/img1.png" class="lightzoom">
+                    <img class="gallery__img" src="img/img1.png" />
+                  </a>
+            </li>
+            <li class="gallery__item">
+                <a href="img/img2.png" class="lightzoom">
+                    <img class="gallery__img" src="img/img2.png" />
+                  </a>
+            </li>
+            <li class="gallery__item">
+                <a href="img/img3.png" class="lightzoom">
+                    <img class="gallery__img" src="img/img3.png" />
+                  </a>
+            </li>
+            <li class="gallery__item">
+                <a href="img/img4.png" class="lightzoom">
+                    <img class="gallery__img" src="img/img4.png" />
+                  </a>
+            </li>
+            <li class="gallery__item">
+                <a href="img/img5.png" class="lightzoom">
+                    <img class="gallery__img" src="img/img5.png" />
+                  </a>
+            </li>
+            <li class="gallery__item">
+                <a href="img/img6.png" class="lightzoom">
+                    <img class="gallery__img" src="img/img6.png" />
+                  </a>
+            </li>
+        </ul>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container container_footer">
+        <div class="footer__content">
+            <h4 class="footer__title">Анна</h4>
+            <p class="footer__text"> &copy; 2024, все права защищены</p>
+        </div>
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="" class="footer__link">
+                    <img src="img/picture.png" alt="" class="footer__img">
+                </a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="footer__link">
+                    <img src="img/vk.png" alt="" class="footer__img">
+                </a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="footer__link">
+                    <img src="img/image.png.png" alt="" class="footer__img">
+                </a>
+            </li>   
+        </ul>
+    </div>
+</footer> 
+<script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+<script type="text/javascript">
+    jQuery('.lightzoom').lightzoom({speed: 400,imgPadding: 2,isOverlayClickClosing: true, overlayColor:"white", viewTitle: true});
+    </script>   
+</body>
+</html>
