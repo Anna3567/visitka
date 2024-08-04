@@ -241,7 +241,11 @@ text-align: left;
     font-size: 23px;
     color: #fff;
 }
-.nav__link{
+.nav__link_second{
     color: rgb(228, 228, 228);
     text-decoration: none;  
+}
+.nav__link_first{
+    color: rgb(228, 228, 228);
+    text-decoration: none;
 }
