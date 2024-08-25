@@ -29,6 +29,11 @@ line-height: 18px;
 letter-spacing: 0px;
 text-align: left;
 }
+.nav{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
 .nav__list{
     display: flex;
     gap: 60px;
@@ -248,4 +253,44 @@ text-align: left;
 .nav__link_first{
     color: rgb(228, 228, 228);
     text-decoration: none;
+}
+.burger{
+    width: 70px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+.burger__line{
+    height: 10px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+@media (max-width: 845px){
+    .container{
+        max-width: 580px;
+    }
+    .nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .container_hero{
+        flex-direction: column;
+    }
+    .about__content{
+        flex-direction: column-reverse;
+    }
+    .about__title{
+        margin-bottom: 0px;
+    }
+    .video__video{
+        height: 350px;
+        border-width: 20px;
+    }
+    .gallery__list{
+        gap: 10px;
+    }
 }
